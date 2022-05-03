@@ -23,7 +23,10 @@ public class Individual extends TaxPayer {
 	@Override
 	public double tax() {
 		
-		//double basicTax = (getAnualIncome() < 20000.0) ? getAnualIncome() * 0.15 : getAnualIncome() * 0.25;
+		/* Poderia usar o operador de condicinal ternario no lugar do if/else. 
+		 * Exemplo abaixo:
+		 * double basicTax = (getAnualIncome() < 20000.0) ? getAnualIncome() * 0.15 : getAnualIncome() * 0.25;
+		 */
 		
 		double basicTax;
 		if (getAnualIncome() < 20000.0) {

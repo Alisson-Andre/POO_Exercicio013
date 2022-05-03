@@ -19,9 +19,9 @@ public class Program {
 		List<TaxPayer> list = new ArrayList<TaxPayer>();
 
 		System.out.print("Enter the number of taxpayers: ");		
-		int N = sc.nextInt();
+		int numbTaxpayers = sc.nextInt();
 		
-		for (int i = 1; i <= N; i++) {
+		for (int i = 1; i <= numbTaxpayers; i++) {
 			System.out.println("Taxpayer #" + i + " data:");
 			System.out.print("Individual or company (i/c)? ");
 			char type = sc.next().charAt(0);
